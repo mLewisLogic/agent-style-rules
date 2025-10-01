@@ -1,5 +1,5 @@
 pre-commit:
   commands:
     lint:
-      run: mise run markdown:lint:fix
       glob: "*.md"
+      run: mise run markdown:lint:fix

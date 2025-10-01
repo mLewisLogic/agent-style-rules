@@ -3,8 +3,10 @@ lefthook = "latest"
 markdownlint-cli2 = 'latest'
 
 
-[tasks."markdown:lint"]
+[tasks."markdown:lint:nofix"]
 run = "markdownlint-cli2"
+description = "Lint Markdown files"
 
 [tasks."markdown:lint:fix"]
 run = "markdownlint-cli2 --fix"
+description = "Lint and fix Markdown files"

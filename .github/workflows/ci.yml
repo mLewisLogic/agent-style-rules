@@ -4,8 +4,8 @@ on:
   push:
 
 jobs:
-  lint:
-    name: lint
+  markdown-lint:
+    name: Markdown Lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -17,6 +17,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Linting
-      - name: markdown-lint
-        run: mise run markdown-lint
+      - name: Markdown lint
+        run: mise run markdown:lint:nofix
