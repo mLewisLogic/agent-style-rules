@@ -1,6 +1,6 @@
 # agent-style-rules
 
-Rules files for agents
+Style rule files for coding agents.
 
 ## Submodule
 
@@ -12,4 +12,3 @@ Run:
 git submodule add git@github.com:mLewisLogic/agent-style-rules.git
 git submodule update --init --recursive
 ```
-

@@ -1,0 +1,10 @@
+[tools]
+lefthook = "latest"
+markdownlint-cli2 = 'latest'
+
+
+[tasks."markdown:lint"]
+run = "markdownlint-cli2"
+
+[tasks."markdown:lint:fix"]
+run = "markdownlint-cli2 --fix"

@@ -1,6 +1,8 @@
 # AGENTS.md Style Guide
 
-Reference for maintaining AGENTS.md files after code changes.
+Reference for maintaining AGENTS.md / CLAUDE.md files after code changes.
+
+If both AGENTS.md and CLAUDE.md are present, then AGENTS.md are the source of truth and CLAUDE.md should by soft symlink to AGENTS.md files.
 
 ## Core Principle
 
